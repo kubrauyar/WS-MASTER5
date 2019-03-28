@@ -1,0 +1,91 @@
+.App {
+  width: 100%;
+  height: auto;
+  /*background-color: rgba(255, 255, 255, 0.6);*/
+}
+.content {
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+/*background-image: url("./selcuk2.jpg");*/
+background-repeat: no-repeat;
+}
+#navbar {
+width: 100%;
+height: auto;
+background-color: rgba(255, 255, 255, 0.6);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+}
+
+.tables{
+  margin-top: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:100%;
+  justify-content: space-evenly;
+}
+
+@media (min-width:1301px) {
+.App {
+  width: 78%;
+  background-color: rgba(255, 255, 255, 0.0);
+
+}
+#navbar {
+  margin-top: 25px;
+  flex-direction: row;
+}
+.content {
+flex-direction: row;
+background-image: url("./selcuk2.jpg");
+/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url("/client/src/img/selcuk.jpeg");*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: space-between;
+min-height: 700px;
+align-items: flex-start;
+flex-wrap: wrap;
+
+}
+
+}
+@media (min-width:700px) and (max-width:1301px) {
+.App {
+  width: 78%;
+  -webkit-box-shadow: 1px 8px 17px -3px rgba(0, 0, 0, 0.21);
+  box-shadow: 1px 8px 17px -3px rgba(0, 0, 0, 0.21);
+
+}
+}
+
+
+
+/*.App {
+  height: auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("./selcuk.jpeg");
+  background-image: url("./selcuk2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  min-height: 700px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+};*/
+ 

@@ -1,0 +1,199 @@
+.weather {
+    /*"açıklama, ikon, derece ve hissedilen derece"yi kapsar*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*background-image: url("/client/src/img/selcuk.jpeg");*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/client/src/img/selcuk.jpeg");
+    margin-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather>h3 {
+    /*hava durumu açıklaması (Güneşli/Bulutlu)*/
+    width: 95%;
+    font-size: 25px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 12px;
+}
+
+.weather>i {
+    /*hava durumu ikonu*/
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+    font-size: 150px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.degreecont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+/*.degreecont>span:first-child{
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+    font-size: 35px;
+} */
+.degreecont>span {
+    /*havanın derecesi */
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 115px;
+}
+
+.felt {
+    /*hissedilen derece*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Quicksand', sans-serif;
+    color: #e7e5e5;
+    font-size: 20px;
+
+}
+
+.felt>span:last-child {
+    margin-left: 13px;
+}
+
+@media (min-width:1301px) {
+    .weather {
+        width: 30%;
+        justify-content: center;
+        background-image:none;
+    }
+    .weather>h3 {
+        text-align: center;
+    }
+
+    .weather>i {
+        font-size: 175px;
+        width: 60%;
+    }
+    .degreecont{
+        width: 40%;
+    }
+
+    .degreecont>span {
+        font-size: 175px;
+    }
+
+    .felt {
+        font-size: 45px;
+    }
+}
+@media (min-width:700px) and (max-width:1301px) {
+    .weather {
+        align-items: baseline;
+    }
+
+    .weather>i {
+        width: auto;
+    }
+
+    .degreecont {
+        width: auto;
+        justify-content: center;
+        margin-left: 25px;
+
+    }
+
+    .weather>h3 {
+        margin-left: 20px;
+    }
+
+    .degreecont>span {
+        font-size: 155px;
+
+    }
+
+    .felt {
+        font-size: 35px;
+    }
+}
+
+/* .weather {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: none;
+    margin-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather>h3 {
+    width: 95%;
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 25px;
+    text-align:center; 
+}
+
+.weather>i {
+    margin-top: 1px;
+    width: auto;
+    height: auto;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.degreecont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.degreecont>span {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 100px;
+
+}
+
+.felt {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.felt>span:last-child {
+    margin-left: 13px;
+}
+
+ */

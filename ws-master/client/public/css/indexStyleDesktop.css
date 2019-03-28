@@ -1,0 +1,135 @@
+@media (min-width:1501px) {
+
+    body {
+        justify-content: center;
+
+    }
+
+    .anadiv {
+        width: 72%;
+        background-color: rgba(255, 255, 255, 0.0);
+
+    }
+
+    #navbar {
+        margin-top: 25px;
+        flex-direction: row;
+
+    }
+
+    .logos {
+        width: 50%;
+
+    }
+
+    .unilogo {
+        width: 50%;
+    }
+
+    .unilogo>img {
+        width: 55%;
+        height: 95%;
+    }
+
+    .menu {
+        width: 50%;
+        margin: none;
+        justify-content: flex-end;
+    }
+
+    .menuitem {
+        width: 22%;
+
+        color: rgba(0, 137, 187, 0.9);
+        background-color: #ffffff;
+        font-weight: bold;
+        border: none !important;
+        font-size: 20px;
+    }
+
+    .menuitem:hover {
+        color: #ffffff;
+        background-color: rgba(0, 137, 187, 0.9);
+    }
+
+    .tarih {
+        width: 65%;
+        height: 50px;
+        background-color: rgba(0, 137, 187, 0.9);
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .content {
+        flex-direction: row;
+        background-image: url("src/img/selcuk.jpeg");
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("src/img/selcuk.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: space-between;
+        min-height: 700px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    .weather {
+        width: 40%;
+        background-image: none;
+        justify-content: center;
+    }
+
+    .containerlist {
+        width: 50%;
+    }
+
+    .weather>h3 {
+        margin-left: 25px;
+    }
+
+    .weather>i {
+        font-size: 175px;
+    }
+
+    .degreecont>span {
+        font-size: 175px;
+
+    }
+
+    .felt {
+        font-size: 45px;
+    }
+
+    .node>h5 {
+        font-size: 18px;
+
+    }
+
+    .leaf {
+        font-size: 28px;
+    }
+
+    .containerhistorylist {
+        width: 55%;
+    }
+
+    .containerhistorylist>h5 {
+        border-bottom: none;
+        color: #ffffffdc;
+    }
+
+    .historylist {
+        flex-wrap: wrap;
+    }
+
+    .history {
+        width: 28%;
+    }
+
+    .moonsum {
+        width: 45%;
+        margin-top: 80px;
+    }
+
+}

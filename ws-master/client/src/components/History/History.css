@@ -1,0 +1,119 @@
+.history {
+    width: 42%;
+    height: auto;
+    background-color: rgba(1, 124, 168, 0.9);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: solid 1px rgba(73, 175, 205, .8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.history>h5 {
+    width: 98%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 7px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5px;
+}
+.historyleaf {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 3px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.historyleaf>i {
+    width: 100%;
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.historyleaf>span:last-child {
+    color: #9999ff;
+
+}
+@media (min-width:1301px) {
+    .history {
+        width: 28%;
+    }
+}
+@media (min-width:700px) {
+.historylist {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+}
+
+/* .history {
+    width: 28%;
+    height: 170px;
+    background-color: rgba(73, 175, 205, .9);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: solid 1px rgba(73, 175, 205, .9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.history>h5 {
+    width: 98%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 7px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10px;
+}
+.historyleaf {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 3px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.historyleaf>i {
+    width: 100%;
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.historyleaf>span:last-child {
+    color: white;
+
+} */

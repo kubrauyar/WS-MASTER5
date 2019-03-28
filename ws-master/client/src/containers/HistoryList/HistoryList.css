@@ -1,0 +1,79 @@
+.containerhistorylist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .containerhistorylist>h5 {
+    width: 95%;
+    font-size: 20px;
+    font-weight: normal;
+    color: #212121;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #21212150;
+  
+  }
+  .historylist {
+    text-decoration: none;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  @media (min-width:1301px) {
+    .containerhistorylist {
+      width: 55%;
+  }
+
+  .containerhistorylist>h5 {
+      /*geçmiş 5 gün yazısı*/
+      border-bottom: none;
+      color: #ffffffdc;
+  }
+
+  .historylist {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  }
+
+/* .containerhistorylist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+.containerhistorylist>h5 {
+    width: 95%;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffffdc;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    text-align: center;
+    border-bottom: none;
+
+}
+
+.historylist {
+    text-decoration: none;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+} */

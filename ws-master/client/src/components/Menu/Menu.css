@@ -1,0 +1,169 @@
+#navbar {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.logos {
+    width: 99%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.unilogo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #aaaaaab0;
+    padding-bottom: 5px;
+}
+
+.unilogo>img {
+    width: 68%;
+    height: 70%;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.isim{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.menuitem {
+    width: 100%;
+    height: 45px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff8c;
+    background-color: rgba(0, 137, 187, 0.8);
+    word-spacing: 1px;
+}
+
+
+.tarih {
+    width: 55%;
+    height: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(1, 6, 8, 0.8);
+    word-spacing: 1px;
+    margin-top: 5px;
+    -webkit-box-shadow: 1px 8px 17px -3px rgba(0, 0, 0, 0.61);
+    box-shadow: 1px 8px 17px -3px rgba(0, 0, 0, 0.61);
+}
+@media (min-width:1301px) {
+    #navbar {
+        margin-top: 25px;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .logos {
+        width: 30%;
+    }
+
+    .unilogo {
+        width: 100%;
+        
+    }
+
+    .unilogo>img {
+        width: 55%;
+        height: 95%; 
+     }
+
+    .menu {
+        width: 70%;
+        margin: none;
+        justify-content: flex-end;
+    }
+
+    .menuitem {
+        /*en üst bar- SÜ-SÜTF-Sekmeler-DateTime*/
+        width: 22%;
+
+        color: rgba(0, 137, 187, 0.9);
+        background-color: #ffffff;
+        font-weight: bold;
+        border: none !important;
+        font-size: 20px;
+    }
+
+    .menuitem:hover {
+        color:  #ffffff;
+        background-color: rgba(0, 137, 187, 0.9);
+    }
+
+    .tarih {
+        width: 65%;
+        height: 50px;
+        background-color: rgba(0, 137, 187, 0.9);
+        font-size: 25px;
+        margin-top: 5px;
+    }
+}
+@media (min-width:700px) and (max-width:1301px) {
+    .logos {
+        justify-content: space-between;
+    }
+
+    .unilogo {
+        width: 45%;
+        height: 120px;
+        border-bottom: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .unilogo>img {
+        width: 64%;
+        height: 95%;
+    }
+    .menuitem {
+        width: 45%;
+        height: 45px;
+        border-right: 1px solid #ffffff8c;
+        border-top: none !important;
+    }
+    .tarih {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+}
